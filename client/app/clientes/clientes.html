@@ -1,0 +1,17 @@
+
+<div class="container ">
+	<div class="form-group">
+		<label for="">Nombre</label>
+<input type="text" class="form-control" ng-model="cliente.nombre">
+
+<label for="">Cedula</label>
+<input type="text" class="form-control" ng-model="cliente.cedula">
+
+<button class="btn btn-info" ng-disabled="! cliente.nombre || ! cliente.cedula" ng-click="guadar()">guardar</button>
+
+		
+	</div>
+
+</div>
+
+
